@@ -5,6 +5,7 @@
 //  Created by Jivan on 2017/5/8.
 //  Copyright © 2017年 Jivan. All rights reserved.
 //
+
 //屏幕宽和高
 #define ScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define ScreenHeight ([UIScreen mainScreen].bounds.size.height)
@@ -16,7 +17,6 @@
 #define kScale ([UIScreen mainScreen].bounds.size.width) / 375
 
 #define hScale ([UIScreen mainScreen].bounds.size.height) / 667
-
 //字体大小
 #define kfont 15
 
