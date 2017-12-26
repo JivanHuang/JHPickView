@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C9102CA1FF2556A00A4AE8C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8CFD1DC51EC70DA8006D50A4 /* JHPickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHPickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFD1DC91EC70DA8006D50A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CFD1DCB1EC70DA8006D50A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 				8CFD1DD61EC70DA8006D50A4 /* LaunchScreen.storyboard */,
 				8CFD1DD91EC70DA8006D50A4 /* Info.plist */,
 				8CFD1DC81EC70DA8006D50A4 /* Supporting Files */,
+				8C9102CA1FF2556A00A4AE8C /* PrefixHeader.pch */,
 			);
 			path = JHPickView;
 			sourceTree = "<group>";
@@ -530,7 +532,9 @@
 			baseConfigurationReference = 971162EDD1B3E2766D37C863 /* Pods-JHPickView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/huangjianwen/Desktop/GitHub/JHPickView/JHPickView/JHPickView/PrefixHeader.pch;
 				INFOPLIST_FILE = JHPickView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jivan.JHPickView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,7 +546,9 @@
 			baseConfigurationReference = E7D725B9D24C85CB612124FD /* Pods-JHPickView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/huangjianwen/Desktop/GitHub/JHPickView/JHPickView/JHPickView/PrefixHeader.pch;
 				INFOPLIST_FILE = JHPickView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jivan.JHPickView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

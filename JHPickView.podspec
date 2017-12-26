@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JHPickView"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "JHPickView 支持城市选择，日期选择，性别，体重等，另外支持简单的自定义"
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ JHPickView 支持城市选择，日期选择，性别，体重等，另外支持
   s.source_files  = "JHPickView", "JHPickView/JHPickView/JHPickView/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "JHPickView/JHPickView/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,6 +133,7 @@ JHPickView 支持城市选择，日期选择，性别，体重等，另外支持
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency 'MJExtension', '~> 3.0.13'
+  s.dependency 'Masonry', '~> 1.0.2'
 
 end

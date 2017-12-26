@@ -23,7 +23,7 @@
 #import "JHPickView.h"
 #import "CityModelData.h"
 #import "MySingleton.h"
-#import <Masonry.h>
+//#import <Masonry.h>
 @interface JHPickView ()<UIPickerViewDelegate,UIPickerViewDataSource>
 
 @property (nonatomic,strong)UIView *bgV;
